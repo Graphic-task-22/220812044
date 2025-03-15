@@ -1,0 +1,22 @@
+/* public/index.css */
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#controls {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
