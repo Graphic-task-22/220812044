@@ -6,8 +6,8 @@ export function createEarth() {
 
     // 加载地球纹理
     const textureLoader = new THREE.TextureLoader();
-    const earthTexture = textureLoader.load('https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg');
-    const bumpTexture = textureLoader.load('https://threejs.org/examples/textures/planets/earth_bump_2048.jpg');
+    const earthTexture = textureLoader.load('/assets/earth_day_4096.jpg');
+    const bumpTexture = textureLoader.load('/assets/earth_bump_2048.jpg');
 
     // 创建材质
     const material = new THREE.MeshPhongMaterial({
