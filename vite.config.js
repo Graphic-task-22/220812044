@@ -7,7 +7,11 @@ export default defineConfig({
     port: 3000 // 自定义端口
   },
   optimizeDeps: {
-    include: ['three'] ,// 如果你需要优化 three.js 的依赖
-    include: ['three', 'three/addons/controls/OrbitControls']
+    include: [
+        'three',
+        'three/addons/controls/OrbitControls.js',
+        'three/addons/libs/lil-gui.module.min.js',
+        'three/addons/nodes/Nodes.js',
+      ],
   }
 })
