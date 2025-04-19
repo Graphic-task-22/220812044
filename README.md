@@ -25,10 +25,12 @@ image
 
 ![粒子项目截图](assignment2/public/image.png)
 
-## 作业三：[待定]
-
+## assignment3：动态山脉地形 (Dynamic Mountain Terrain)
+image
 ### 项目描述
-[待补充]
+这是一个基于 Three.js 的动态地形生成系统，使用 Simplex 噪声算法创建自然流畅的山脉地形，并通过实时动画模拟地形的起伏变化。项目展示了程序化地形生成和实时3D渲染的结合应用。
+
+![粒子项目截图](assignment3/public/image.png)
 
 ### 文件结构
 ```
